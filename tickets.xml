@@ -1,0 +1,34 @@
+<Tickets>
+    <Ticket>
+        <id>1</id>
+        <name>Билет на Барби</name>
+        <price>420</price>
+        <coordinates>
+            <x>15</x>
+            <y>5</y>
+        </coordinates>
+        <creationDate>Sat Mar 01 00:57:25 MSK 2025</creationDate>
+        <type>VIP</type>
+        <venue>
+            <id>1</id>
+            <name>Место победителя</name>
+            <capacity>null</capacity>
+        </venue>
+    </Ticket>
+    <Ticket>
+        <id>3</id>
+        <name>Билет на трансформеров</name>
+        <price>69</price>
+        <coordinates>
+            <x>69</x>
+            <y>239</y>
+        </coordinates>
+        <creationDate>Sat Mar 01 00:58:11 MSK 2025</creationDate>
+        <type>VIP</type>
+        <venue>
+            <id>5</id>
+            <name>Место победителя </name>
+            <capacity>null</capacity>
+        </venue>
+    </Ticket>
+</Tickets>
