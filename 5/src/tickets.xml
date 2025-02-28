@@ -1,0 +1,12 @@
+<Tickets>
+    <Ticket>
+        <id>1</id>
+        <name>Concert</name>
+        <price>1500</price>
+    </Ticket>
+    <Ticket>
+        <id>2</id>
+        <name>Movie</name>
+        <price>800</price>
+    </Ticket>
+</Tickets>
