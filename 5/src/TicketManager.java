@@ -236,7 +236,15 @@ public class TicketManager {
             System.err.println("Ошибка при добавлении билета: " + e.getMessage());
         }
     }
+    public void removeHead() {
+        if (tickets.isEmpty()) {
+            System.out.println("Коллекция пуста, удалить элемент невозможно.");
+            return;
+        }
 
+        Ticket head = tickets.poll(); // Удаляем и получаем первый элемент
+        System.out.println("Удален первый элемент: " + head);
+    }
 
     public void processCommand(String command) {
         commandHistory.add(command);
@@ -261,6 +269,9 @@ public class TicketManager {
                 break;
             case "save":
                 saveToFile();
+                break;
+            case "remove_head":
+                removeHead();
                 break;
             case "exit":
                 System.exit(0);
